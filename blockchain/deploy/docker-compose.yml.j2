@@ -1,0 +1,14 @@
+services:
+  dequity-blockchain:
+    image: gitlab.itglobal.com:5050/dequity/blockchain/dequity-blockchain:{{ BRANCH_POSTFIX }}
+    container_name: {{ BRANCH_POSTFIX }}-dequity-blockchain
+    restart: always
+    env_file:
+      - .env
+    expose:
+      - "${PORT}"
+
+networks:
+  default:
+    name: dequity-net
+    external: true

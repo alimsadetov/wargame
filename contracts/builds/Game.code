@@ -1,0 +1,1032 @@
+.fragment c4_to_c7, {
+	PUSHROOT
+	CTOS
+	LDU 256 ; pubkey c4
+	LDU 64 ; pubkey timestamp c4
+	LDU 1 ; ctor flag
+	NIP
+	LDMSGADDR
+	LDREF
+	ENDS
+	CTOS
+	LDMSGADDR
+	LDU 32
+	LDDICT
+	ROTREV
+	PAIR
+	SWAP
+	LDU 32
+	LDDICT
+	ROTREV
+	PAIR
+	SWAP
+	LDI 1
+	LDI 1
+	ENDS
+	SETGLOB 15
+	SETGLOB 14
+	SETGLOB 13
+	SETGLOB 12
+	SETGLOB 11
+	SETGLOB 10
+	SETGLOB 3
+	SETGLOB 2
+}
+
+.fragment botAddress, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 11
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000dcd84df7
+		NEWC
+		STSLICE
+		STSLICE
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment botUnits, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 13
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000b6088769
+		NEWC
+		STSLICE
+		SWAP
+		UNPAIR
+		XCHG S2
+		STU 32
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment c4_to_c7_with_init_storage, {
+	PUSHROOT
+	CTOS
+	SBITS
+	GTINT 1
+	PUSHCONT {
+		PUSHINT 0
+		PUSHROOT
+		CTOS
+		PLDDICT ; D
+		PUSHSLICE x8000000000000000000000000000000000000000000000000000000000000000001_
+		DUP
+		PUSHINT 0
+		NEWDICT
+		PAIR
+		DUP
+		PUSHINT 0
+		DUP
+		SETGLOB 15
+		SETGLOB 14
+		SETGLOB 13
+		SETGLOB 12
+		SETGLOB 11
+		SETGLOB 10
+		PUSHINT 64
+		DICTUGET
+		THROWIFNOT 61
+		PLDU 256
+		SETGLOB 2
+		PUSHINT 0 ; timestamp
+		SETGLOB 3
+		TRUE
+		SETGLOB 14
+		FALSE
+		SETGLOB 15
+	}
+IFREFELSE {
+		.inline c4_to_c7
+}
+}
+
+.fragment c7_to_c4, {
+	GETGLOB 15
+	GETGLOB 14
+	GETGLOB 13
+	GETGLOB 12
+	GETGLOB 11
+	GETGLOB 10
+	GETGLOB 3
+	GETGLOB 2
+	NEWC
+	STU 256
+	STU 64
+	STONE
+	STSLICE
+	ROLLREV 5
+	NEWC
+	STSLICE
+	SWAP
+	UNPAIR
+	XCHG S2
+	STU 32
+	STDICT
+	SWAP
+	UNPAIR
+	XCHG S2
+	STU 32
+	STDICT
+	STI 1
+	STI 1
+	STBREFR
+	ENDC
+	POPROOT
+}
+
+.fragment changeBotUnits_c0200d82_internal, {
+	.loc Game.sol, 55
+	ACCEPT
+	.loc Game.sol, 56
+	GETGLOB 15
+	PUSHCONT {
+		.loc Game.sol, 57
+		DUP
+		SETGLOB 13
+		.loc Game.sol, 0
+	}
+	IFNOT
+	.loc Game.sol, 0
+	DROP
+}
+
+.fragment changeBotUnits, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 54
+	LDU 32
+	LDDICT
+	ROTREV
+	PAIR
+	SWAP
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline changeBotUnits_c0200d82_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment changeIsGamerMove_dc80b55c_internal, {
+	.loc Game.sol, 64
+	ACCEPT
+	.loc Game.sol, 65
+	SETGLOB 14
+	.loc Game.sol, 0
+}
+
+.fragment changeIsGamerMove, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 63
+	LDI 1
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline changeIsGamerMove_dc80b55c_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment changeUnits_842243bd_internal, {
+	.loc Game.sol, 47
+	ACCEPT
+	.loc Game.sol, 48
+	GETGLOB 15
+	PUSHCONT {
+		.loc Game.sol, 49
+		DUP
+		SETGLOB 12
+		.loc Game.sol, 0
+	}
+	IFNOT
+	.loc Game.sol, 0
+	DROP
+}
+
+.fragment changeUnits, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 46
+	LDU 32
+	LDDICT
+	ROTREV
+	PAIR
+	SWAP
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline changeUnits_842243bd_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment constructor, {
+	DROP
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7_with_init_storage
+	}
+	GETGLOB 6
+	THROWIF 51
+	OVER
+	PUSHCONT {
+		LDREF
+		ENDS
+		CTOS
+	}
+	IF
+	LDMSGADDR
+	LDREF
+	ENDS
+	CTOS
+	LDMSGADDR
+	ENDS
+	.loc Game.sol, 18
+	SWAP
+	SETGLOB 10
+	.loc Game.sol, 19
+	SETGLOB 11
+	.loc Game.sol, 0
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment endGame_44a242d9_internal, {
+	.loc Game.sol, 70
+	ACCEPT
+	.loc Game.sol, 71
+	TRUE
+	SETGLOB 15
+	.loc Game.sol, 72
+	PUSHCONT {
+		.loc Game.sol, 73
+		GETPARAM 7
+		FIRST
+		GETGLOB 10
+	}
+	PUSHCONT {
+		.loc Game.sol, 75
+		GETPARAM 7
+		FIRST
+		GETGLOB 11
+	}
+	IFELSE
+	NEWC
+	STSLICECONST x62_
+	STSLICE
+	SWAP
+	STGRAMS
+	PUSHINT 107
+	STZEROES
+	ENDC
+	PUSHINT 160
+	SENDRAWMSG
+	.loc Game.sol, 0
+}
+
+.fragment endGame, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 69
+	LDI 1
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline endGame_44a242d9_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment gamerAddress, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 10
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000d8072ee8
+		NEWC
+		STSLICE
+		STSLICE
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment getBotAddress_c2fdda7d_internal, {
+	.loc Game.sol, 27
+	GETGLOB 11
+	.loc Game.sol, 0
+}
+
+.fragment upd_only_time_in_c4, {
+	PUSHROOT
+	CTOS
+	LDU 256
+	LDU 64
+	NIP
+	GETGLOB 3
+	ROT
+	NEWC
+	STU 256
+	STU 64
+	STSLICE
+	ENDC
+	POPROOT
+}
+
+.fragment getBotAddress, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 26
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline getBotAddress_c2fdda7d_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 1
+		STUR 98
+		SWAP
+		NEWC
+		STSLICECONST xeb88c8ca
+		STSLICE
+		STBREFR
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getBotUnits_ad5480d4_internal, {
+	.loc Game.sol, 35
+	GETGLOB 13
+	.loc Game.sol, 0
+}
+
+.fragment getBotUnits, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 34
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline getBotUnits_ad5480d4_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 2776763870
+		STUR 130
+		SWAP
+		UNPAIR
+		XCHG S2
+		STU 32
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getGamerAddress_6777ca2c_internal, {
+	.loc Game.sol, 23
+	GETGLOB 10
+	.loc Game.sol, 0
+}
+
+.fragment getGamerAddress, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 22
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline getGamerAddress_6777ca2c_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 1
+		STUR 98
+		SWAP
+		NEWC
+		STSLICECONST xb39672d7
+		STSLICE
+		STBREFR
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getGamerUnits_a713242b_internal, {
+	.loc Game.sol, 31
+	GETGLOB 12
+	.loc Game.sol, 0
+}
+
+.fragment getGamerUnits, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 30
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline getGamerUnits_a713242b_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 3687008723
+		STUR 130
+		SWAP
+		UNPAIR
+		XCHG S2
+		STU 32
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getIsGameEnded_248d26dc_internal, {
+	.loc Game.sol, 43
+	GETGLOB 15
+	.loc Game.sol, 0
+}
+
+.fragment getIsGameEnded, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 42
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline getIsGameEnded_248d26dc_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 3549942052
+		STUR 130
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getIsGamerMove_b809c5a9_internal, {
+	.loc Game.sol, 39
+	GETGLOB 14
+	.loc Game.sol, 0
+}
+
+.fragment getIsGamerMove, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc Game.sol, 38
+	ENDS
+	.loc Game.sol, 0
+	CALLREF {
+		.inline getIsGamerMove_b809c5a9_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 3074756482
+		STUR 130
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment isGameEnded, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 15
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000dc1f3adf
+		NEWC
+		STSLICE
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment isGamerMove, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 14
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000a6ff9b0c
+		NEWC
+		STSLICE
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment units, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 12
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000a26a5519
+		NEWC
+		STSLICE
+		SWAP
+		UNPAIR
+		XCHG S2
+		STU 32
+		STDICT
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment public_function_selector, {
+	DUP
+	PUSHINT 1804126410
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 629280222
+		LEQ
+		IFJMPREF {
+			DUP
+			PUSHINT 160505296
+			EQUAL
+			IFJMPREF {
+				.inline changeUnits
+			}
+			DUP
+			PUSHINT 184728592
+			EQUAL
+			IFJMPREF {
+				.inline endGame
+			}
+			DUP
+			PUSHINT 577393945
+			EQUAL
+			IFJMPREF {
+				.inline units
+			}
+			DUP
+			PUSHINT 629280222
+			EQUAL
+			IFJMPREF {
+				.inline getBotUnits
+			}
+		}
+		DUP
+		PUSHINT 906528617
+		LEQ
+		IFJMPREF {
+			DUP
+			PUSHINT 654285580
+			EQUAL
+			IFJMPREF {
+				.inline isGamerMove
+			}
+			DUP
+			PUSHINT 765041028
+			EQUAL
+			IFJMPREF {
+				.inline changeBotUnits
+			}
+			DUP
+			PUSHINT 865497815
+			EQUAL
+			IFJMPREF {
+				.inline getGamerAddress
+			}
+			DUP
+			PUSHINT 906528617
+			EQUAL
+			IFJMPREF {
+				.inline botUnits
+			}
+		}
+		DUP
+		PUSHINT 1476865768
+		LEQ
+		IFJMPREF {
+			DUP
+			PUSHINT 927272834
+			EQUAL
+			IFJMPREF {
+				.inline getIsGamerMove
+			}
+			DUP
+			PUSHINT 1241152735
+			EQUAL
+			IFJMPREF {
+				.inline constructor
+			}
+			DUP
+			PUSHINT 1402458404
+			EQUAL
+			IFJMPREF {
+				.inline getIsGameEnded
+			}
+			DUP
+			PUSHINT 1476865768
+			EQUAL
+			IFJMPREF {
+				.inline gamerAddress
+			}
+		}
+		DUP
+		PUSHINT 1804126410
+		LEQ
+		IFJMPREF {
+			DUP
+			PUSHINT 1539525075
+			EQUAL
+			IFJMPREF {
+				.inline getGamerUnits
+			}
+			DUP
+			PUSHINT 1545550559
+			EQUAL
+			IFJMPREF {
+				.inline isGameEnded
+			}
+			DUP
+			PUSHINT 1557679607
+			EQUAL
+			IFJMPREF {
+				.inline botAddress
+			}
+			DUP
+			PUSHINT 1804126410
+			EQUAL
+			IFJMPREF {
+				.inline getBotAddress
+			}
+		}
+	}
+	DUP
+	PUSHINT 1867130533
+	EQUAL
+	IFJMPREF {
+		.inline changeIsGamerMove
+	}
+}
+
+.fragment main_external, {
+	PUSHROOT
+	CTOS
+	SBITS
+	NEQINT 1
+	SETGLOB 6
+	OVER
+	CALLREF {
+		.inline c4_to_c7_with_init_storage
+	}
+	LDU 1 ; haveSign msgSlice
+	SWAP
+	PUSHCONT {
+		PUSHPOW2 9
+		LDSLICEX
+		DUP
+		MYADDR
+		NEWC
+		STSLICE
+		STSLICE
+		ENDC
+		HASHCU
+		ROT
+		GETGLOB 2
+		CHKSIGNU
+		THROWIFNOT 40
+	}
+	IF
+	LDU 64 ; timestamp msgSlice
+	SWAP
+	.inline replay_protection
+	LDU 32 ; expireAt msgSlice
+	SWAP
+	NOW ; msgSlice expireAt now
+	GREATER ; msgSlice expireAt>now
+	THROWIFNOT 57
+	LDU 32 ; funcId body
+	SWAP
+	CALLREF {
+		.inline public_function_selector
+	}
+	THROW 60
+}
+
+.fragment main_internal, {
+	PUSHROOT
+	CTOS
+	SBITS
+	NEQINT 1
+	SETGLOB 6
+	PUSH S2
+	CTOS
+	PLDU 4
+	MODPOW2 1
+	IFRET
+	OVER
+	SEMPTY ; isEmpty
+	IFJMPREF {
+		GETGLOB 6
+		THROWIFNOT 76
+	}
+	OVER
+	LDUQ 32  ; [funcId] body' ok
+	THROWIFNOT 60
+	OVER
+	IFNOTJMPREF {
+		GETGLOB 6
+		THROWIFNOT 76
+	}
+	SWAP
+	CALLREF {
+		.inline public_function_selector
+	}
+	THROW 60
+}
+
+.fragment onTickTock, {
+}
+
+.fragment default_data_dict_cell, {
+	PUSHINT 0
+	NEWC
+	STU 256
+	PUSHINT 0
+	NEWDICT
+	PUSHINT 64
+	DICTUSETB
+}
+
+; The code below forms a value of the StateInit type.
+.blob x4_ ; split_depth = nothing
+.blob x4_ ; special = nothing
+.blob xc_ ; code = just
+.cell { ; code cell
+	PUSHREFCONT {
+		DICTPUSHCONST 32
+		DICTUGETJMPZ
+		THROW 78
+		.code-dict-cell 32, {
+		}
+		.cell { ; version
+			.blob x736f6c20302e37322e30 ; sol 0.72.0
+		}
+	}
+	POPCTR c3
+	DUP
+	IFNOTJMPREF {
+		.inline main_internal
+	}
+	DUP
+	EQINT -1
+	IFJMPREF {
+		.inline main_external
+	}
+	DUP
+	EQINT -2
+	IFJMPREF {
+		.inline onTickTock
+	}
+	THROW 11
+}
+.blob xc_ ; data = just
+.cell { 
+	.blob xc_
+	.cell { 
+		.inline-computed-cell default_data_dict_cell, 0
+	}
+}
+.blob x4_ ; library = hme_empty

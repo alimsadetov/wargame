@@ -1,0 +1,159 @@
+{
+	"ABI version": 2,
+	"version": "2.3",
+	"header": ["time", "expire"],
+	"functions": [
+		{
+			"name": "constructor",
+			"inputs": [
+				{"name":"gamer","type":"address"},
+				{"name":"bot","type":"address"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "getGamerAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"memory","type":"address"}
+			]
+		},
+		{
+			"name": "getBotAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"memory","type":"address"}
+			]
+		},
+		{
+			"name": "getGamerUnits",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"memory","type":"address[]"}
+			]
+		},
+		{
+			"name": "getBotUnits",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"memory","type":"address[]"}
+			]
+		},
+		{
+			"name": "getIsGamerMove",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"memory","type":"bool"}
+			]
+		},
+		{
+			"name": "getIsGameEnded",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"memory","type":"bool"}
+			]
+		},
+		{
+			"name": "changeUnits",
+			"inputs": [
+				{"name":"_units","type":"address[]"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "changeBotUnits",
+			"inputs": [
+				{"name":"_units","type":"address[]"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "changeIsGamerMove",
+			"inputs": [
+				{"name":"_isGamerMove","type":"bool"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "endGame",
+			"inputs": [
+				{"name":"isGamerWins","type":"bool"}
+			],
+			"outputs": [
+			]
+		},
+		{
+			"name": "gamerAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"gamerAddress","type":"address"}
+			]
+		},
+		{
+			"name": "botAddress",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"botAddress","type":"address"}
+			]
+		},
+		{
+			"name": "units",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"units","type":"address[]"}
+			]
+		},
+		{
+			"name": "botUnits",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"botUnits","type":"address[]"}
+			]
+		},
+		{
+			"name": "isGamerMove",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"isGamerMove","type":"bool"}
+			]
+		},
+		{
+			"name": "isGameEnded",
+			"inputs": [
+			],
+			"outputs": [
+				{"name":"isGameEnded","type":"bool"}
+			]
+		}
+	],
+	"data": [
+	],
+	"events": [
+	],
+	"fields": [
+		{"name":"_pubkey","type":"uint256"},
+		{"name":"_timestamp","type":"uint64"},
+		{"name":"_constructorFlag","type":"bool"},
+		{"name":"gamerAddress","type":"address"},
+		{"name":"botAddress","type":"address"},
+		{"name":"units","type":"address[]"},
+		{"name":"botUnits","type":"address[]"},
+		{"name":"isGamerMove","type":"bool"},
+		{"name":"isGameEnded","type":"bool"}
+	]
+}
