@@ -1,8 +1,0 @@
-include:
-  - project: 'dequity/dequity-infra'
-    ref: main
-    file:
-      - 'ci-templates/node-nest.yml'
-
-variables:
-  PROJECT_NAME: dequity-blockchain

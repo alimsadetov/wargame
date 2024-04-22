@@ -4,7 +4,6 @@ import globals from './config/global.config';
 import { LoggerModule } from './logger/logger.module';
 import { LoggerMiddleware } from './middlewares/log-incoming-request.middleware';
 
-import { JwtStrategy } from './strategies/jwt.strategy';
 import everscaleConfig from './config/everscale.config';
 import { EverscaleModule } from './modules/everscale/everscale.module';
 
@@ -23,7 +22,7 @@ import { EverscaleModule } from './modules/everscale/everscale.module';
     EverscaleModule,
   ],
   controllers: [],
-  providers: [JwtStrategy],
+  providers: [],
   exports: [],
 })
 export class AppModule {

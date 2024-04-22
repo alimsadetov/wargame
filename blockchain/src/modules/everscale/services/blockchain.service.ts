@@ -1,24 +1,21 @@
 import { ConfigService } from '@nestjs/config';
 import {
-  DEVNET_EVER_PRIVATE_KEY,
-  DEVNET_EVER_PUBLIC_KEY,
   DEVNET_WALLET_PRIVATE_KEY,
   DEVNET_WALLET_PUBLIC_KEY,
 } from '../../../config/everscale.config';
-import { DEVNET_ADDRESSES, MAINNET_ADDRESSES } from '../abi/addresses';
+import { DEVNET_ADDRESSES } from '../abi/addresses';
 import {
   EverscaleStandaloneClient,
-  MsigAccount,
   EverWalletAccount,
   SimpleAccountsStorage,
   SimpleKeystore,
 } from 'everscale-standalone-client/nodejs';
-import { Address, ProviderRpcClient } from 'everscale-inpage-provider';
+import { Address, ProviderRpcClient} from 'everscale-inpage-provider';
 
 export class Blockchain {
   private static instance: Blockchain;
 
-  private providerDevnet: ProviderRpcClient;
+  private provider: ProviderRpcClient;
 
   private constructor(private configService: ConfigService) {
     this.initClient();
@@ -32,7 +29,7 @@ export class Blockchain {
   }
 
   public getRpcProvider(): ProviderRpcClient {
-    return this.providerDevnet;
+    return this.provider;
   }
 
   private async initClient(): Promise<void> {
@@ -47,39 +44,32 @@ export class Blockchain {
 
 
     const accAddress = new Address(DEVNET_ADDRESSES.Wallet);
-    // const acc = new MsigAccount({
-    //   address: accAddress,
-    //   type: 'everwa',
-    //   publicKey: this.configService.get(DEVNET_EVER_PUBLIC_KEY),
-    // });
 
-    const acc = new EverWalletAccount({
-      address: accAddress,
-      //type: 'everwa',
-      publicKey: this.configService.get(DEVNET_EVER_PUBLIC_KEY),
-    });
+    const acc = new EverWalletAccount(accAddress);
 
 
     const accountsStorage = new SimpleAccountsStorage();
     accountsStorage.addAccount(acc);
     accountsStorage.defaultAccount = accAddress;
 
-    this.providerDevnet = new ProviderRpcClient({
+    this.provider = new ProviderRpcClient({
       forceUseFallback: true,
-      fallback: async () =>
+      fallback: () =>
         EverscaleStandaloneClient.create({
+          
           connection: {
-            id: 1000,
-            group: 'venom_testnet',
-            type: 'jrpc',
+            id: 10000,
+            group: 'devnet',
+            type: 'graphql',
             data: {
-              endpoint: 'https://jrpc-testnet.venom.foundation/rpc',
+              endpoints: ['https://devnet.evercloud.dev/89a3b8f46a484f2ea3bdd364ddaee3a3/graphql'],
             },
           },
           keystore: keystore,
           accountsStorage: accountsStorage,
         }),
     });
+
 
   } catch(e){console.log('error on init')}
   }

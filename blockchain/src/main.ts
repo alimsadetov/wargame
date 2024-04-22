@@ -26,11 +26,10 @@ async function bootstrap() {
 
   // Swagger setup
   const config = new DocumentBuilder()
-    .setTitle('dequity-blockchain')
-    .setDescription('Here we can find all API methods of dequity blockchain')
+    .setTitle('blockchain')
+    .setDescription('Here we can find all API methods of blockchain')
     .setVersion('0.01')
     .addBearerAuth()
-    .addServer(configService.get(SERVER_PATH))
     .build();
 
   const document = SwaggerModule.createDocument(app, config);
@@ -42,22 +41,6 @@ async function bootstrap() {
   app.useGlobalPipes(new ValidationPipe());
 
   const port = configService.get(PORT);
-  const rmqUrl = configService.get(RMQ_URL);
-
-  const microservice = app.connectMicroservice({
-    transport: Transport.RMQ,
-    options: {
-      urls: [rmqUrl],
-      queue: 'dequity-blockchain',
-      queueOptions: {
-        durable: false,
-      },
-    },
-    logger: logger,
-  });
-
-  microservice.useGlobalFilters();
-  await app.startAllMicroservices();
 
   await app.listen(port, () => {
     logger.log(`App has started on port ${port}.`, 'Bootstrap');
