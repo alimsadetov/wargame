@@ -1,0 +1,2476 @@
+{
+  "0735e4aae8d706df966729eb3efe3fe6ce5f94d292d0754193eaf44bdb7a25e3": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 471
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 472
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 473
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 476
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 477
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 478
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 479
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 480
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 481
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 482
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 483
+    },
+    "272": {
+      "filename": "./Hiller.code",
+      "line": 484
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 485
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 487
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 488
+    }
+  },
+  "0c55784668506b5f5cfb874c92860b0f21f13b22c15911e3df78d75fdd1eb9c5": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 357
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 358
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 359
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 360
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 361
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 362
+    },
+    "88": {
+      "filename": "WarUnit.sol",
+      "line": 23
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 368
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 371
+    },
+    "120": {
+      "filename": "./Hiller.code",
+      "line": 372
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 373
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 374
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 375
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 376
+    },
+    "184": {
+      "filename": "./Hiller.code",
+      "line": 377
+    },
+    "192": {
+      "filename": "./Hiller.code",
+      "line": 378
+    },
+    "200": {
+      "filename": "./Hiller.code",
+      "line": 379
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 380
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 381
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 382
+    },
+    "288": {
+      "filename": "./Hiller.code",
+      "line": 383
+    },
+    "312": {
+      "filename": "./Hiller.code",
+      "line": 384
+    },
+    "320": {
+      "filename": "./Hiller.code",
+      "line": 385
+    },
+    "328": {
+      "filename": "./Hiller.code",
+      "line": 386
+    },
+    "336": {
+      "filename": "./Hiller.code",
+      "line": 387
+    },
+    "352": {
+      "filename": "./Hiller.code",
+      "line": 389
+    },
+    "360": {
+      "filename": "./Hiller.code",
+      "line": 390
+    },
+    "368": {
+      "filename": "./Hiller.code",
+      "line": 392
+    },
+    "376": {
+      "filename": "./Hiller.code",
+      "line": 393
+    },
+    "392": {
+      "filename": "./Hiller.code",
+      "line": 396
+    }
+  },
+  "1239764a8bf2369976b65f0e230848e4c0b6b64ecd55dbe92f90690ec00ca534": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 52
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 53
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 54
+    },
+    "40": {
+      "filename": "./Hiller.code",
+      "line": 55
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 56
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 57
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 58
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 59
+    },
+    "104": {
+      "filename": "./Hiller.code",
+      "line": 60
+    },
+    "120": {
+      "filename": "./Hiller.code",
+      "line": 61
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 63
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 64
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 65
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 66
+    },
+    "184": {
+      "filename": "./Hiller.code",
+      "line": 67
+    },
+    "200": {
+      "filename": "./Hiller.code",
+      "line": 68
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 69
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 70
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 71
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 72
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 73
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 74
+    },
+    "312": {
+      "filename": "./Hiller.code",
+      "line": 75
+    },
+    "336": {
+      "filename": "./Hiller.code",
+      "line": 76
+    },
+    "352": {
+      "filename": "./Hiller.code",
+      "line": 77
+    },
+    "360": {
+      "filename": "./Hiller.code",
+      "line": 78
+    },
+    "376": {
+      "filename": "./Hiller.code",
+      "line": 79
+    },
+    "384": {
+      "filename": "./Hiller.code",
+      "line": 80
+    },
+    "400": {
+      "filename": "./Hiller.code",
+      "line": 82
+    }
+  },
+  "2a3a12a0b1ddb2bcc7ae4694e933117340b92310ff4c80f8ebe1e2cc2d9e3440": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 210
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 211
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 212
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 213
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 214
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 215
+    },
+    "88": {
+      "filename": "WarUnit.sol",
+      "line": 19
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 221
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 224
+    },
+    "120": {
+      "filename": "./Hiller.code",
+      "line": 225
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 226
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 227
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 228
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 229
+    },
+    "184": {
+      "filename": "./Hiller.code",
+      "line": 230
+    },
+    "192": {
+      "filename": "./Hiller.code",
+      "line": 231
+    },
+    "200": {
+      "filename": "./Hiller.code",
+      "line": 232
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 233
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 234
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 235
+    },
+    "288": {
+      "filename": "./Hiller.code",
+      "line": 236
+    },
+    "312": {
+      "filename": "./Hiller.code",
+      "line": 237
+    },
+    "328": {
+      "filename": "./Hiller.code",
+      "line": 238
+    },
+    "336": {
+      "filename": "./Hiller.code",
+      "line": 239
+    },
+    "344": {
+      "filename": "./Hiller.code",
+      "line": 240
+    },
+    "360": {
+      "filename": "./Hiller.code",
+      "line": 242
+    },
+    "368": {
+      "filename": "./Hiller.code",
+      "line": 243
+    },
+    "376": {
+      "filename": "./Hiller.code",
+      "line": 245
+    },
+    "384": {
+      "filename": "./Hiller.code",
+      "line": 246
+    },
+    "400": {
+      "filename": "./Hiller.code",
+      "line": 249
+    }
+  },
+  "2fde85d35def4c0e354006070a8c7536782a7cd70a60ac1cd54e86f4c8aacf46": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 646
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 647
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 648
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 649
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 652
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 653
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 654
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 655
+    },
+    "160": {
+      "filename": "./Hiller.code",
+      "line": 658
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 659
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 660
+    },
+    "224": {
+      "filename": "./Hiller.code",
+      "line": 661
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 664
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 665
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 666
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 667
+    }
+  },
+  "302ff827e84872bac9b11b2dc796875820c9738ce219690728278b95add8f0da": {
+    "0": {
+      "filename": "WarUnit.sol",
+      "line": 28
+    }
+  },
+  "31b32ed716b20b15e4509f679a10c6e5a5a5b87137d96b8b509cab853b32bf3a": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 704
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 705
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 706
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 707
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 710
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 711
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 712
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 713
+    },
+    "160": {
+      "filename": "./Hiller.code",
+      "line": 716
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 717
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 718
+    },
+    "224": {
+      "filename": "./Hiller.code",
+      "line": 719
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 722
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 723
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 724
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 725
+    }
+  },
+  "3b4e35db05333b0d3b8386c1da602335f040658c484d90e7c1e5ceba63b3843c": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 844
+    },
+    "1": {
+      "filename": "./Hiller.code",
+      "line": 845
+    },
+    "2": {
+      "filename": "./Hiller.code",
+      "line": 846
+    },
+    "3": {
+      "filename": "./Hiller.code",
+      "line": 875
+    },
+    "4": {
+      "filename": "./Hiller.code",
+      "line": 882
+    }
+  },
+  "3cbfb35bb2f5753d31cc46abb8a880fdf2dceb6de27fbc6748bfa1b73b17ac07": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 755
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 756
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 757
+    },
+    "40": {
+      "filename": "./Hiller.code",
+      "line": 758
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 759
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 760
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 761
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 764
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 765
+    },
+    "120": {
+      "filename": "./Hiller.code",
+      "line": 766
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 767
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 768
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 769
+    },
+    "176": {
+      "filename": "./Hiller.code",
+      "line": 770
+    },
+    "192": {
+      "filename": "./Hiller.code",
+      "line": 771
+    },
+    "200": {
+      "filename": "./Hiller.code",
+      "line": 772
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 773
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 774
+    },
+    "224": {
+      "filename": "./Hiller.code",
+      "line": 775
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 776
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 777
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 778
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 779
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 781
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 782
+    },
+    "320": {
+      "filename": "./Hiller.code",
+      "line": 783
+    },
+    "328": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "344": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "352": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "360": {
+      "filename": "stdlib.sol",
+      "line": 61
+    },
+    "376": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "384": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "400": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "424": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "432": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "472": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "480": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "488": {
+      "filename": "stdlib.sol",
+      "line": 62
+    },
+    "504": {
+      "filename": "stdlib.sol",
+      "line": 63
+    },
+    "520": {
+      "filename": "./Hiller.code",
+      "line": 785
+    },
+    "536": {
+      "filename": "./Hiller.code",
+      "line": 786
+    },
+    "544": {
+      "filename": "./Hiller.code",
+      "line": 787
+    },
+    "560": {
+      "filename": "./Hiller.code",
+      "line": 788
+    },
+    "568": {
+      "filename": "./Hiller.code",
+      "line": 789
+    },
+    "584": {
+      "filename": "./Hiller.code",
+      "line": 790
+    },
+    "600": {
+      "filename": "./Hiller.code",
+      "line": 791
+    },
+    "608": {
+      "filename": "./Hiller.code",
+      "line": 792
+    },
+    "624": {
+      "filename": "./Hiller.code",
+      "line": 795
+    }
+  },
+  "490fea027b7081c9393c947f734b007470a1fb63bc6637c5886e80542b07455d": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 130
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 131
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 132
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 133
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 134
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 135
+    },
+    "88": {
+      "filename": "WarUnit.sol",
+      "line": 43
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 141
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 144
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 147
+    }
+  },
+  "4f82bb1f841e62524e0f04835990e83019fcab67e22ddcd1eb06d67edd00a884": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 848
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 858
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 859
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 860
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 863
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 864
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 865
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 868
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 869
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 870
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 873
+    }
+  },
+  "5270cd57ea12ade0204c2cc6a2c2c378a3d71c37f705292f4b06690f96302030": {
+    "0": {
+      "filename": "WarUnit.sol",
+      "line": 20
+    }
+  },
+  "52f602d9d7ea8f1f01bbb97b0a13abb5aa5ceff8a15562d2bcec0398058ca344": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 88
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 89
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 90
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 91
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 92
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 93
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 94
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 95
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 96
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 97
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 98
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 99
+    },
+    "184": {
+      "filename": "./Hiller.code",
+      "line": 100
+    },
+    "200": {
+      "filename": "./Hiller.code",
+      "line": 101
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 102
+    },
+    "224": {
+      "filename": "./Hiller.code",
+      "line": 103
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 104
+    },
+    "256": {
+      "filename": "./Hiller.code",
+      "line": 105
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 106
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 107
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 108
+    },
+    "312": {
+      "filename": "./Hiller.code",
+      "line": 109
+    },
+    "328": {
+      "filename": "./Hiller.code",
+      "line": 110
+    },
+    "336": {
+      "filename": "./Hiller.code",
+      "line": 111
+    },
+    "344": {
+      "filename": "./Hiller.code",
+      "line": 112
+    }
+  },
+  "53ca3be6be11587ebdba065ccb99ba49a48598049ee82f560e0726642ed15303": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 642
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 643
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 644
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 645
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 671
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 672
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 673
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 674
+    },
+    "160": {
+      "filename": "./Hiller.code",
+      "line": 700
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 701
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 702
+    },
+    "224": {
+      "filename": "./Hiller.code",
+      "line": 703
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 729
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 730
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 731
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 732
+    }
+  },
+  "54b32e79b5d9d5d08620318906691621591bc1387d9d86af2233511c76ef3dae": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 151
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 152
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 153
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 154
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 157
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 158
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 159
+    },
+    "88": {
+      "filename": "Hiller.sol",
+      "line": 10
+    },
+    "96": {
+      "filename": "Hiller.sol",
+      "line": 10
+    },
+    "112": {
+      "filename": "Hiller.sol",
+      "line": 11
+    },
+    "136": {
+      "filename": "Hiller.sol",
+      "line": 11
+    },
+    "152": {
+      "filename": "Hiller.sol",
+      "line": 12
+    },
+    "168": {
+      "filename": "Hiller.sol",
+      "line": 12
+    },
+    "184": {
+      "filename": "Hiller.sol",
+      "line": 13
+    },
+    "192": {
+      "filename": "Hiller.sol",
+      "line": 13
+    },
+    "208": {
+      "filename": "Hiller.sol",
+      "line": 14
+    },
+    "224": {
+      "filename": "Hiller.sol",
+      "line": 14
+    },
+    "240": {
+      "filename": "Hiller.sol",
+      "line": 15
+    },
+    "248": {
+      "filename": "Hiller.sol",
+      "line": 15
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 181
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 184
+    }
+  },
+  "55a703465a160dce20481375de2e5b830c841c2787303835eb5821d62d65ca9d": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 877
+    }
+  },
+  "5a03b5d842622667f0b2a29d0be7f98732f860574a8026ef54fa1fd059c86d49": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 621
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 622
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 623
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 626
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 627
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 628
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 629
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 630
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 631
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 632
+    },
+    "256": {
+      "filename": "./Hiller.code",
+      "line": 633
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 634
+    },
+    "272": {
+      "filename": "./Hiller.code",
+      "line": 635
+    },
+    "288": {
+      "filename": "./Hiller.code",
+      "line": 637
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 638
+    }
+  },
+  "5c0f8d2cea029b722b15b14415130a881b98a782e2da336a5e3b53ad460b9b26": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 855
+    }
+  },
+  "5e187fd62a7f754eb51cbcc3264c13354a410e3193f56dc0126d10c92e63539e": {
+    "0": {
+      "filename": "WarUnit.sol",
+      "line": 44
+    },
+    "16": {
+      "filename": "WarUnit.sol",
+      "line": 44
+    },
+    "32": {
+      "filename": "WarUnit.sol",
+      "line": 44
+    },
+    "40": {
+      "filename": "WarUnit.sol",
+      "line": 45
+    },
+    "48": {
+      "filename": "WarUnit.sol",
+      "line": 45
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 125
+    }
+  },
+  "6492a0ad496856321e2560d5dd016729dab20d4a5fa4a4416f50c3def19c64fe": {},
+  "6a15a0d6ea4a4eb111541e7b9e162ed2bf382829d6e9ef0ce639898fa1f1211b": {
+    "0": {
+      "filename": "WarUnit.sol",
+      "line": 50
+    },
+    "16": {
+      "filename": "WarUnit.sol",
+      "line": 51
+    },
+    "32": {
+      "filename": "WarUnit.sol",
+      "line": 51
+    },
+    "48": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "64": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "72": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "96": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "104": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "120": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "128": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "136": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "152": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "160": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "168": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "176": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "192": {
+      "filename": "WarUnit.sol",
+      "line": 52
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 422
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 424
+    }
+  },
+  "6ce1d2c8400b2e550818f3eb397bf48ed522f0def34995219681a640e72118b0": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 308
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 309
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 310
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 311
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 312
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 313
+    },
+    "88": {
+      "filename": "WarUnit.sol",
+      "line": 27
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 319
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 322
+    },
+    "120": {
+      "filename": "./Hiller.code",
+      "line": 323
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 324
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 325
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 326
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 327
+    },
+    "184": {
+      "filename": "./Hiller.code",
+      "line": 328
+    },
+    "192": {
+      "filename": "./Hiller.code",
+      "line": 329
+    },
+    "200": {
+      "filename": "./Hiller.code",
+      "line": 330
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 331
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 332
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 333
+    },
+    "288": {
+      "filename": "./Hiller.code",
+      "line": 334
+    },
+    "312": {
+      "filename": "./Hiller.code",
+      "line": 335
+    },
+    "328": {
+      "filename": "./Hiller.code",
+      "line": 336
+    },
+    "336": {
+      "filename": "./Hiller.code",
+      "line": 337
+    },
+    "344": {
+      "filename": "./Hiller.code",
+      "line": 338
+    },
+    "360": {
+      "filename": "./Hiller.code",
+      "line": 340
+    },
+    "368": {
+      "filename": "./Hiller.code",
+      "line": 341
+    },
+    "376": {
+      "filename": "./Hiller.code",
+      "line": 343
+    },
+    "384": {
+      "filename": "./Hiller.code",
+      "line": 344
+    },
+    "400": {
+      "filename": "./Hiller.code",
+      "line": 347
+    }
+  },
+  "75b29f821b01e59415651650a4c58312509ab58e912ea6e976afa759412d4782": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 733
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 734
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 735
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 736
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 739
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 740
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 741
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 742
+    },
+    "160": {
+      "filename": "./Hiller.code",
+      "line": 745
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 746
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 747
+    },
+    "224": {
+      "filename": "./Hiller.code",
+      "line": 748
+    }
+  },
+  "900d4d1fbfb0f6c65618716398cb489e68cbe14e5b68b811a8291f189279cf7b": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 428
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 429
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 430
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 431
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 432
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 433
+    },
+    "88": {
+      "filename": "WarUnit.sol",
+      "line": 49
+    },
+    "104": {
+      "filename": "WarUnit.sol",
+      "line": 49
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 440
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 443
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 446
+    }
+  },
+  "9388fa18e1fcd248c2250d8b5617266c3248e0bb8ec865404eb365bf0463f5d6": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 849
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 850
+    },
+    "40": {
+      "filename": "./Hiller.code",
+      "line": 851
+    }
+  },
+  "958cc2dc879b0bc853dcff6d1e3b4789bc1ee397cd9a45b85dd685725366343d": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 534
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 535
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 536
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 539
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 540
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 541
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 542
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 543
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 544
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 545
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 546
+    },
+    "272": {
+      "filename": "./Hiller.code",
+      "line": 547
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 548
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 550
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 551
+    }
+  },
+  "96a296d224f285c67bee93c30f8a309157f0daa35dc5b87e410b78630a09cfc7": {},
+  "b8815825e359b8249e3f4ee077daf68480c4702c5ad0cea95af457d86204b21e": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 492
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 493
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 494
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 497
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 498
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 499
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 500
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 501
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 502
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 503
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 504
+    },
+    "272": {
+      "filename": "./Hiller.code",
+      "line": 505
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 506
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 508
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 509
+    }
+  },
+  "c39403b2bcd0c5a1b064233e2a9d2da29f70571667e38bc21fd24c2076bd3955": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 513
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 514
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 515
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 518
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 519
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 520
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 521
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 522
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 523
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 524
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 525
+    },
+    "272": {
+      "filename": "./Hiller.code",
+      "line": 526
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 527
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 529
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 530
+    }
+  },
+  "c6f225d1b548b079f4b031215823ae64a7b582a6a1132f3f70b2776ea5e96284": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 2
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 3
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 4
+    },
+    "40": {
+      "filename": "./Hiller.code",
+      "line": 5
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 6
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 7
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 8
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 9
+    },
+    "104": {
+      "filename": "./Hiller.code",
+      "line": 10
+    },
+    "120": {
+      "filename": "./Hiller.code",
+      "line": 11
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 12
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 13
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 14
+    },
+    "160": {
+      "filename": "./Hiller.code",
+      "line": 15
+    },
+    "176": {
+      "filename": "./Hiller.code",
+      "line": 16
+    },
+    "192": {
+      "filename": "./Hiller.code",
+      "line": 17
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 18
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 19
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 20
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 21
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 22
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 23
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 24
+    },
+    "312": {
+      "filename": "./Hiller.code",
+      "line": 25
+    },
+    "328": {
+      "filename": "./Hiller.code",
+      "line": 26
+    },
+    "344": {
+      "filename": "./Hiller.code",
+      "line": 27
+    }
+  },
+  "ca55d6d838d5cad1e897f75f0215467e2864acfec839e93127e80d8565f0e0fe": {
+    "0": {
+      "filename": "WarUnit.sol",
+      "line": 24
+    }
+  },
+  "cb9f6e5336fd5b7b8f716d4ef113e492873eecd4a8a587fd7ef932adfc79d9b0": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 675
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 676
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 677
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 678
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 681
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 682
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 683
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 684
+    },
+    "160": {
+      "filename": "./Hiller.code",
+      "line": 687
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 688
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 689
+    },
+    "224": {
+      "filename": "./Hiller.code",
+      "line": 690
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 693
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 694
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 695
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 696
+    }
+  },
+  "cf0437d459c46da8455c9d8132739871bae1736e520cad362ff6ad0e533b3c01": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 259
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 260
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 261
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 262
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 263
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 264
+    },
+    "88": {
+      "filename": "WarUnit.sol",
+      "line": 31
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 270
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 273
+    },
+    "120": {
+      "filename": "./Hiller.code",
+      "line": 274
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 275
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 276
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 277
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 278
+    },
+    "184": {
+      "filename": "./Hiller.code",
+      "line": 279
+    },
+    "192": {
+      "filename": "./Hiller.code",
+      "line": 280
+    },
+    "200": {
+      "filename": "./Hiller.code",
+      "line": 281
+    },
+    "208": {
+      "filename": "./Hiller.code",
+      "line": 282
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 283
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 284
+    },
+    "288": {
+      "filename": "./Hiller.code",
+      "line": 285
+    },
+    "312": {
+      "filename": "./Hiller.code",
+      "line": 286
+    },
+    "328": {
+      "filename": "./Hiller.code",
+      "line": 287
+    },
+    "336": {
+      "filename": "./Hiller.code",
+      "line": 288
+    },
+    "344": {
+      "filename": "./Hiller.code",
+      "line": 289
+    },
+    "360": {
+      "filename": "./Hiller.code",
+      "line": 291
+    },
+    "368": {
+      "filename": "./Hiller.code",
+      "line": 292
+    },
+    "376": {
+      "filename": "./Hiller.code",
+      "line": 294
+    },
+    "384": {
+      "filename": "./Hiller.code",
+      "line": 295
+    },
+    "400": {
+      "filename": "./Hiller.code",
+      "line": 298
+    }
+  },
+  "d066050ea82afbade88e1e81073b8b65e8b3a07c5f43fb41dcdead851bcdb213": {
+    "0": {
+      "filename": "WarUnit.sol",
+      "line": 36
+    },
+    "16": {
+      "filename": "WarUnit.sol",
+      "line": 37
+    },
+    "32": {
+      "filename": "WarUnit.sol",
+      "line": 37
+    },
+    "48": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "64": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "72": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "96": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "104": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "120": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "128": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "136": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "152": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "160": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "168": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "184": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "208": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "216": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "232": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "240": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "248": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "264": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "272": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "280": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "288": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "304": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "312": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "328": {
+      "filename": "WarUnit.sol",
+      "line": 38
+    },
+    "344": {
+      "filename": "WarUnit.sol",
+      "line": 39
+    },
+    "360": {
+      "filename": "./Hiller.code",
+      "line": 593
+    },
+    "368": {
+      "filename": "./Hiller.code",
+      "line": 595
+    }
+  },
+  "d2c54c30bcb912f365a3f4462eb30bc6870905a53904522df7b150653af4470e": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 799
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 800
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 801
+    },
+    "40": {
+      "filename": "./Hiller.code",
+      "line": 802
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 803
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 804
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 805
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 806
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 807
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 808
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 809
+    },
+    "152": {
+      "filename": "./Hiller.code",
+      "line": 810
+    },
+    "168": {
+      "filename": "./Hiller.code",
+      "line": 811
+    },
+    "184": {
+      "filename": "./Hiller.code",
+      "line": 815
+    },
+    "192": {
+      "filename": "./Hiller.code",
+      "line": 816
+    },
+    "216": {
+      "filename": "./Hiller.code",
+      "line": 817
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 818
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 819
+    },
+    "256": {
+      "filename": "./Hiller.code",
+      "line": 823
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 824
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 827
+    }
+  },
+  "e213f692aaf0d2b55bc1c312912e4e131dc500a358a1d5a3818464b521c0d96e": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 599
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 600
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 601
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 602
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 603
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 604
+    },
+    "88": {
+      "filename": "WarUnit.sol",
+      "line": 35
+    },
+    "104": {
+      "filename": "WarUnit.sol",
+      "line": 35
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 611
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 614
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 617
+    }
+  },
+  "e21c8d83e3c00a03ecd06459c7184c83a34bfecaca2d4a1e4b4335b04e162729": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 450
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 451
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 452
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 455
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 456
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 457
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 458
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 459
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 460
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 461
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 462
+    },
+    "272": {
+      "filename": "./Hiller.code",
+      "line": 463
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 464
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 466
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 467
+    }
+  },
+  "e2e5ec60f9f6c29edf043a181d609afbf8ef29cf5a620274788439f76f0dc955": {
+    "0": {
+      "filename": "Hiller.sol",
+      "line": 10
+    }
+  },
+  "e6936e8f0e7b8fe98c2ca66eee9d4e9dafcfc747defef9cb795288fabb1b7ef3": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 194
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 195
+    },
+    "24": {
+      "filename": "./Hiller.code",
+      "line": 196
+    },
+    "40": {
+      "filename": "./Hiller.code",
+      "line": 197
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 198
+    },
+    "64": {
+      "filename": "./Hiller.code",
+      "line": 199
+    },
+    "80": {
+      "filename": "./Hiller.code",
+      "line": 200
+    },
+    "88": {
+      "filename": "./Hiller.code",
+      "line": 201
+    },
+    "96": {
+      "filename": "./Hiller.code",
+      "line": 202
+    },
+    "112": {
+      "filename": "./Hiller.code",
+      "line": 203
+    },
+    "128": {
+      "filename": "./Hiller.code",
+      "line": 204
+    },
+    "136": {
+      "filename": "./Hiller.code",
+      "line": 205
+    },
+    "144": {
+      "filename": "./Hiller.code",
+      "line": 206
+    }
+  },
+  "ee1e87d124c40e5ac970d4f608d343f96d554bf6ae0d2da9898e6ef49e6a1294": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 31
+    },
+    "8": {
+      "filename": "./Hiller.code",
+      "line": 32
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 33
+    },
+    "32": {
+      "filename": "./Hiller.code",
+      "line": 36
+    },
+    "48": {
+      "filename": "./Hiller.code",
+      "line": 37
+    },
+    "56": {
+      "filename": "./Hiller.code",
+      "line": 38
+    },
+    "72": {
+      "filename": "./Hiller.code",
+      "line": 39
+    },
+    "232": {
+      "filename": "./Hiller.code",
+      "line": 40
+    },
+    "240": {
+      "filename": "./Hiller.code",
+      "line": 41
+    },
+    "248": {
+      "filename": "./Hiller.code",
+      "line": 42
+    },
+    "264": {
+      "filename": "./Hiller.code",
+      "line": 43
+    },
+    "272": {
+      "filename": "./Hiller.code",
+      "line": 44
+    },
+    "280": {
+      "filename": "./Hiller.code",
+      "line": 45
+    },
+    "296": {
+      "filename": "./Hiller.code",
+      "line": 47
+    },
+    "304": {
+      "filename": "./Hiller.code",
+      "line": 48
+    }
+  },
+  "f21d501e220e793b63f36d4c0276e49427a453f81da820e4522bef3effed7452": {
+    "0": {
+      "filename": "WarUnit.sol",
+      "line": 32
+    }
+  },
+  "f24e1e7aa04d89aad2945816b6e9b921f2b3892da9ba53e2383c148351b96d0c": {
+    "0": {
+      "filename": "./Hiller.code",
+      "line": 812
+    },
+    "16": {
+      "filename": "./Hiller.code",
+      "line": 813
+    }
+  }
+}

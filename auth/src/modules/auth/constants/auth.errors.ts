@@ -1,0 +1,12 @@
+export const INVALID_REFRESH_TOKEN_ERROR = 'Невалидный refresh_token';
+export const PASSWORDS_MUST_MATCH_ERROR = 'Пароли должны совпадать.';
+export const MISMATCHED_ADDRESSES_ERROR = 'Address calculated using the signature does not match the declared address.';
+export const ADDRESS_RECOVERY_ERROR = 'Wrong signature ';
+export const INCORRECT_ACCESS_HASH = 'Неверный токен';
+export const ACCESS_HASH_EXPIRED = 'Истек срок действия токена';
+export const USER_WITH_EMAIL_ALREADY_EXISTS_ERROR = 'Пользователь с таким email уже существует.';
+export const USER_WITH_ID_NOT_FOUND_ERROR = 'Пользователь с данным id не найден.';
+export const WRONG_PASSWOR_OR_LOGIN_ERROR = 'Неверный логин или пароль';
+export const USER_WITH_WALLET_ADDRESS_NOT_FOUND_ERROR = 'User with such wallet address was not found.';
+export const EMAIL_NOT_FOUND_ERROR = 'Не указана почта.';
+export const WELCOME_MAIL_ALREADY_SEND = 'Приветсвнное письо уже отправлялось.';

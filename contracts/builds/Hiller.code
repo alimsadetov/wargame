@@ -1,0 +1,882 @@
+.fragment c4_to_c7, {
+	PUSHROOT
+	CTOS
+	LDU 256 ; pubkey c4
+	LDU 64 ; pubkey timestamp c4
+	LDU 1 ; ctor flag
+	NIP
+	LDREF
+	LDI 256
+	LDU 256
+	LDREF
+	ENDS
+	CTOS
+	LDU 256
+	LDU 256
+	LDI 1
+	LDI 1
+	ENDS
+	SETGLOB 16
+	SETGLOB 15
+	SETGLOB 14
+	SETGLOB 13
+	SETGLOB 12
+	SETGLOB 11
+	SETGLOB 10
+	SETGLOB 3
+	SETGLOB 2
+}
+
+.fragment attackPower, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 12
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000e07d651c
+		NEWC
+		STSLICE
+		STU 256
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment c4_to_c7_with_init_storage, {
+	PUSHROOT
+	CTOS
+	SBITS
+	GTINT 1
+	PUSHCONT {
+		PUSHINT 0
+		PUSHROOT
+		CTOS
+		PLDDICT ; D
+		PUSHREF {
+		}
+		PUSHINT 0
+		BLKPUSH 5, 0
+		SETGLOB 16
+		SETGLOB 15
+		SETGLOB 14
+		SETGLOB 13
+		SETGLOB 12
+		SETGLOB 11
+		SETGLOB 10
+		PUSHINT 64
+		DICTUGET
+		THROWIFNOT 61
+		PLDU 256
+		SETGLOB 2
+		PUSHINT 0 ; timestamp
+		SETGLOB 3
+		FALSE
+		SETGLOB 16
+	}
+IFREFELSE {
+		.inline c4_to_c7
+}
+}
+
+.fragment c7_to_c4, {
+	GETGLOB 16
+	GETGLOB 15
+	GETGLOB 14
+	GETGLOB 13
+	GETGLOB 12
+	GETGLOB 11
+	GETGLOB 10
+	GETGLOB 3
+	GETGLOB 2
+	NEWC
+	STU 256
+	STU 64
+	STONE
+	STREF
+	STI 256
+	STU 256
+	ROLLREV 4
+	NEWC
+	STU 256
+	STU 256
+	STI 1
+	STI 1
+	STBREFR
+	ENDC
+	POPROOT
+}
+
+.fragment checkDeath_f2622937_internal, {
+	.loc WarUnit.sol, 44
+	GETGLOB 11
+	LESSINT 1
+	PUSHCONT {
+		.loc WarUnit.sol, 45
+		TRUE
+		SETGLOB 16
+		.loc WarUnit.sol, 0
+	}
+	IF
+	.loc WarUnit.sol, 0
+}
+
+.fragment checkDeath, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc WarUnit.sol, 43
+	ENDS
+	.loc WarUnit.sol, 0
+	CALLREF {
+		.inline checkDeath_f2622937_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment constructor, {
+	DROP
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7_with_init_storage
+	}
+	GETGLOB 6
+	THROWIF 51
+	ENDS
+	.loc Hiller.sol, 10
+	PUSHREF {
+		.blob x68696c6c6572
+	}
+	SETGLOB 10
+	.loc Hiller.sol, 11
+	PUSHINT 130
+	SETGLOB 11
+	.loc Hiller.sol, 12
+	PUSHINT 30
+	SETGLOB 12
+	.loc Hiller.sol, 13
+	PUSHINT 10
+	SETGLOB 13
+	.loc Hiller.sol, 14
+	PUSHINT 30
+	SETGLOB 14
+	.loc Hiller.sol, 15
+	TRUE
+	SETGLOB 15
+	.loc Hiller.sol, 0
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment getHp_abd708ef_internal, {
+	.loc WarUnit.sol, 20
+	GETGLOB 11
+	.loc WarUnit.sol, 0
+}
+
+.fragment upd_only_time_in_c4, {
+	PUSHROOT
+	CTOS
+	LDU 256
+	LDU 64
+	NIP
+	GETGLOB 3
+	ROT
+	NEWC
+	STU 256
+	STU 64
+	STSLICE
+	ENDC
+	POPROOT
+}
+
+.fragment getHp, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc WarUnit.sol, 19
+	ENDS
+	.loc WarUnit.sol, 0
+	CALLREF {
+		.inline getHp_abd708ef_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 3424221396
+		STUR 130
+		STI 256
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getIsDead_4da9c5ca_internal, {
+	.loc WarUnit.sol, 32
+	GETGLOB 16
+	.loc WarUnit.sol, 0
+}
+
+.fragment getIsDead, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc WarUnit.sol, 31
+	ENDS
+	.loc WarUnit.sol, 0
+	CALLREF {
+		.inline getIsDead_4da9c5ca_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 3304182363
+		STUR 130
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getIsHillAvail_155fffbc_internal, {
+	.loc WarUnit.sol, 28
+	GETGLOB 15
+	.loc WarUnit.sol, 0
+}
+
+.fragment getIsHillAvail, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc WarUnit.sol, 27
+	ENDS
+	.loc WarUnit.sol, 0
+	CALLREF {
+		.inline getIsHillAvail_155fffbc_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 2370384695
+		STUR 130
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment getUnitType_35bb8348_internal, {
+	.loc WarUnit.sol, 24
+	GETGLOB 10
+	.loc WarUnit.sol, 0
+}
+
+.fragment getUnitType, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc WarUnit.sol, 23
+	ENDS
+	.loc WarUnit.sol, 0
+	CALLREF {
+		.inline getUnitType_35bb8348_internal
+	}
+	OVER
+	PUSHCONT {
+		PUSH S3
+		CTOS
+		LDU 2
+		LDMSGADDR
+		DROP
+		NIP
+		NEWC
+		STSLICECONST xc
+		STSLICE
+		PUSHINT 2772826275
+		STUR 130
+		STREF
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	PUSHCONT {
+		DROP
+	}
+	IFELSE
+	IFREF {
+		.inline upd_only_time_in_c4
+	}
+	THROW 0
+}
+
+.fragment heal_f37ac61c_internal, {
+	.loc WarUnit.sol, 50
+	ACCEPT
+	.loc WarUnit.sol, 51
+	GETGLOB 16
+	PUSHCONT {
+		.loc WarUnit.sol, 52
+		GETGLOB 11
+		OVER
+		MODPOW2 256
+		DUP
+		PUSHPOW2DEC 255
+		GREATER
+		PUSHCONT {
+			PUSHNEGPOW2 256
+			ADD
+		}
+		IF
+		ADD
+		FITS 256
+		SETGLOB 11
+		.loc WarUnit.sol, 0
+	}
+	IFNOT
+	.loc WarUnit.sol, 0
+	DROP
+}
+
+.fragment heal, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc WarUnit.sol, 49
+	LDU 256
+	ENDS
+	.loc WarUnit.sol, 0
+	CALLREF {
+		.inline heal_f37ac61c_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment hilling, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 14
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000e73f3dcf
+		NEWC
+		STSLICE
+		STU 256
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment hp, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 11
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000c35e653a
+		NEWC
+		STSLICE
+		STI 256
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment isDead, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 16
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc000000000000000000000000086f5b359
+		NEWC
+		STSLICE
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment isHillAvail, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 15
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000de8ddbcf
+		NEWC
+		STSLICE
+		STI 1
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment protectionPower, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 13
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc00000000000000000000000008a521803
+		NEWC
+		STSLICE
+		STU 256
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment takeAttack_53dcca59_internal, {
+	.loc WarUnit.sol, 36
+	ACCEPT
+	.loc WarUnit.sol, 37
+	GETGLOB 16
+	PUSHCONT {
+		.loc WarUnit.sol, 38
+		GETGLOB 11
+		OVER
+		MODPOW2 256
+		DUP
+		PUSHPOW2DEC 255
+		GREATER
+		PUSHCONT {
+			PUSHNEGPOW2 256
+			ADD
+		}
+		IF
+		GETGLOB 13
+		MODPOW2 256
+		DUP
+		PUSHPOW2DEC 255
+		GREATER
+		PUSHCONT {
+			PUSHNEGPOW2 256
+			ADD
+		}
+		IF
+		SUB
+		FITS 256
+		SUB
+		FITS 256
+		SETGLOB 11
+		.loc WarUnit.sol, 39
+		CALLREF {
+			.inline checkDeath_f2622937_internal
+		}
+		.loc WarUnit.sol, 0
+	}
+	IFNOT
+	.loc WarUnit.sol, 0
+	DROP
+}
+
+.fragment takeAttack, {
+	DROP
+	GETGLOB 6
+	THROWIFNOT 76
+	GETGLOB 2
+	ISNULL
+	IFREF {
+		.inline c4_to_c7
+	}
+	.loc WarUnit.sol, 35
+	LDU 256
+	ENDS
+	.loc WarUnit.sol, 0
+	CALLREF {
+		.inline takeAttack_53dcca59_internal
+	}
+	CALLREF {
+		.inline c7_to_c4
+	}
+	THROW 0
+}
+
+.fragment unitType, {
+	DROP
+	ENDS
+	CALLREF {
+		.inline c4_to_c7
+	}
+	GETGLOB 10
+	OVER
+	PUSHCONT {
+		PUSHSLICE xc0000000000000000000000000b168b0d3
+		NEWC
+		STSLICE
+		STREF
+		ENDC
+		PUSHINT 0
+		SENDRAWMSG
+	}
+	IF
+	THROW 0
+}
+
+.fragment public_function_selector, {
+	DUP
+	PUSHINT 237455959
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 116765529
+		EQUAL
+		IFJMPREF {
+			.inline isDead
+		}
+		DUP
+		PUSHINT 173152259
+		EQUAL
+		IFJMPREF {
+			.inline protectionPower
+		}
+		DUP
+		PUSHINT 222901047
+		EQUAL
+		IFJMPREF {
+			.inline getIsHillAvail
+		}
+		DUP
+		PUSHINT 237455959
+		EQUAL
+		IFJMPREF {
+			.inline takeAttack
+		}
+	}
+	DUP
+	PUSHINT 1080237511
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 625342627
+		EQUAL
+		IFJMPREF {
+			.inline getUnitType
+		}
+		DUP
+		PUSHINT 672036036
+		EQUAL
+		IFJMPREF {
+			.inline checkDeath
+		}
+		DUP
+		PUSHINT 828944595
+		EQUAL
+		IFJMPREF {
+			.inline unitType
+		}
+		DUP
+		PUSHINT 1080237511
+		EQUAL
+		IFJMPREF {
+			.inline heal
+		}
+	}
+	DUP
+	PUSHINT 1586355151
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 1130259770
+		EQUAL
+		IFJMPREF {
+			.inline hp
+		}
+		DUP
+		PUSHINT 1156698715
+		EQUAL
+		IFJMPREF {
+			.inline getIsDead
+		}
+		DUP
+		PUSHINT 1276737748
+		EQUAL
+		IFJMPREF {
+			.inline getHp
+		}
+		DUP
+		PUSHINT 1586355151
+		EQUAL
+		IFJMPREF {
+			.inline isHillAvail
+		}
+	}
+	DUP
+	PUSHINT 1756716863
+	LEQ
+	IFJMPREF {
+		DUP
+		PUSHINT 1618830620
+		EQUAL
+		IFJMPREF {
+			.inline attackPower
+		}
+		DUP
+		PUSHINT 1732197839
+		EQUAL
+		IFJMPREF {
+			.inline hilling
+		}
+		DUP
+		PUSHINT 1756716863
+		EQUAL
+		IFJMPREF {
+			.inline constructor
+		}
+	}
+}
+
+.fragment main_external, {
+	PUSHROOT
+	CTOS
+	SBITS
+	NEQINT 1
+	SETGLOB 6
+	OVER
+	CALLREF {
+		.inline c4_to_c7_with_init_storage
+	}
+	LDU 1 ; haveSign msgSlice
+	SWAP
+	PUSHCONT {
+		PUSHPOW2 9
+		LDSLICEX
+		DUP
+		MYADDR
+		NEWC
+		STSLICE
+		STSLICE
+		ENDC
+		HASHCU
+		ROT
+		GETGLOB 2
+		CHKSIGNU
+		THROWIFNOT 40
+	}
+	IF
+	LDU 64 ; timestamp msgSlice
+	SWAP
+	.inline replay_protection
+	LDU 32 ; expireAt msgSlice
+	SWAP
+	NOW ; msgSlice expireAt now
+	GREATER ; msgSlice expireAt>now
+	THROWIFNOT 57
+	LDU 32 ; funcId body
+	SWAP
+	CALLREF {
+		.inline public_function_selector
+	}
+	THROW 60
+}
+
+.fragment main_internal, {
+	PUSHROOT
+	CTOS
+	SBITS
+	NEQINT 1
+	SETGLOB 6
+	PUSH S2
+	CTOS
+	PLDU 4
+	MODPOW2 1
+	IFRET
+	OVER
+	SEMPTY ; isEmpty
+	IFJMPREF {
+		GETGLOB 6
+		THROWIFNOT 76
+	}
+	OVER
+	LDUQ 32  ; [funcId] body' ok
+	THROWIFNOT 60
+	OVER
+	IFNOTJMPREF {
+		GETGLOB 6
+		THROWIFNOT 76
+	}
+	SWAP
+	CALLREF {
+		.inline public_function_selector
+	}
+	THROW 60
+}
+
+.fragment onTickTock, {
+}
+
+.fragment default_data_dict_cell, {
+	PUSHINT 0
+	NEWC
+	STU 256
+	PUSHINT 0
+	NEWDICT
+	PUSHINT 64
+	DICTUSETB
+}
+
+; The code below forms a value of the StateInit type.
+.blob x4_ ; split_depth = nothing
+.blob x4_ ; special = nothing
+.blob xc_ ; code = just
+.cell { ; code cell
+	PUSHREFCONT {
+		DICTPUSHCONST 32
+		DICTUGETJMPZ
+		THROW 78
+		.code-dict-cell 32, {
+		}
+		.cell { ; version
+			.blob x736f6c20302e37322e30 ; sol 0.72.0
+		}
+	}
+	POPCTR c3
+	DUP
+	IFNOTJMPREF {
+		.inline main_internal
+	}
+	DUP
+	EQINT -1
+	IFJMPREF {
+		.inline main_external
+	}
+	DUP
+	EQINT -2
+	IFJMPREF {
+		.inline onTickTock
+	}
+	THROW 11
+}
+.blob xc_ ; data = just
+.cell { 
+	.blob xc_
+	.cell { 
+		.inline-computed-cell default_data_dict_cell, 0
+	}
+}
+.blob x4_ ; library = hme_empty
