@@ -13,13 +13,7 @@
     "start:dev": "cross-env NODE_ENV=development nest start --watch",
     "start:debug": "nest start --debug --watch",
     "start:prod": "npx prisma migrate deploy && node dist/main",
-    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix",
-    "test": "jest",
-    "create-test-db": "cross-env EXISTING_DB=postgres TEST_DB_NAME=olta_test_api node dist/src/db/create-test-db.js",
-    "delete-test-db": "cross-env EXISTING_DB=postgres TEST_DB_NAME=olta_test_api node dist/src/db/delete-test-db.js",
-    "test:api:command": "cross-env POSTGRES_DB=olta_test_api jest --config test/jest-api.json --runInBand --forceExit",
-    "test:api": "npm run -s build && npm run -s create-test-db && cross-env POSTGRES_DB=olta_test_api npm run -s typeorm:run && npm run -s test:api:command ; npm run -s delete-test-db",
-    "test:api:coverage": "jest --config test/jest-api.json --coverage --forceExit"
+    "lint": "eslint \"{src,apps,libs,test}/**/*.ts\" --fix"
   },
   "dependencies": {
     "@nestjs/common": "^9.2.1",

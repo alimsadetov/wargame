@@ -10,3 +10,42 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+enum WarriorType {
+  DPS
+  SUB
+  TANK
+  HILLER
+}
+
+model Warrior {
+  id   String   @id  @default(uuid())
+  address  String
+  type  WarriorType
+  hp    Int
+  attackPower   Int
+  protectionPower  Int
+  hilling    Int
+  isHillAvail  Boolean
+  isDead    Boolean
+  collectionId  Int
+  collection    WarriorsCollection  @relation(fields: [collectionId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+}
+
+model WarriorsCollection {
+  id   Int   @id @default(autoincrement())
+  isBot    Boolean
+  gameId  Int
+  game    Game   @relation(fields: [gameId], references: [id], onDelete: Cascade, onUpdate: Cascade)
+
+  units   Warrior[]
+}
+
+model Game {
+  id   Int   @id @default(autoincrement())
+  gameAddress  String
+  botAddress   String
+  gamerAddress  String
+  isFinished  Boolean @default(false)
+  unitCollections  WarriorsCollection[]
+}

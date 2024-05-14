@@ -12,7 +12,7 @@
 После каждого хода идёт обновление информации в смарт-контрактах воинов и игры.
 
 ## Стэк
-Nest js, Solidity, Prisma ORM, Postgresql, Everscale сеть, everscale-inpage-provider.
+Nest js, Solidity, Prisma ORM, Postgresql, everscale-inpage-provider.
 
 ## Подробнее
 contracts (закончена первая базовая версия) - смарт-контракты с которыми будет взаимодействовать бэкенд.
