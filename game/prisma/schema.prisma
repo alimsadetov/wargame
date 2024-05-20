@@ -43,9 +43,11 @@ model WarriorsCollection {
 
 model Game {
   id   Int   @id @default(autoincrement())
+  userId   Int
   gameAddress  String
   botAddress   String
   gamerAddress  String
   isFinished  Boolean @default(false)
+  isDeployed  Boolean @default(false)
   unitCollections  WarriorsCollection[]
 }

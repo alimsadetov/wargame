@@ -1,6 +1,6 @@
 import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
-import globals, { STATIC_DIR } from './config/global.config';
+import globals from './config/global.config';
 import { LoggerModule } from './logger/logger.module';
 import { LoggerMiddleware } from './middlewares/log-incoming-request.middleware';
 import { JwtStrategy } from './strategies/jwt.strategy';
